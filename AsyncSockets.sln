@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncSockets", "AsyncSockets\AsyncSockets.csproj", "{76DAE490-DC9C-4A7F-A938-39E80C27E15C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncSockets.Core", "AsyncSockets.Core\AsyncSockets.Core.csproj", "{176E57DE-A576-4731-8B50-78DADF98340C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncSockets.Client", "AsyncSockets.Client\AsyncSockets.Client.csproj", "{FC7E7B43-C353-4770-B7E3-439170C29C94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncSockets.Server", "AsyncSockets.Server\AsyncSockets.Server.csproj", "{DDE45D48-D9AF-4B85-A580-8C70EE060BBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76DAE490-DC9C-4A7F-A938-39E80C27E15C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76DAE490-DC9C-4A7F-A938-39E80C27E15C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76DAE490-DC9C-4A7F-A938-39E80C27E15C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76DAE490-DC9C-4A7F-A938-39E80C27E15C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{176E57DE-A576-4731-8B50-78DADF98340C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{176E57DE-A576-4731-8B50-78DADF98340C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{176E57DE-A576-4731-8B50-78DADF98340C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{176E57DE-A576-4731-8B50-78DADF98340C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC7E7B43-C353-4770-B7E3-439170C29C94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC7E7B43-C353-4770-B7E3-439170C29C94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC7E7B43-C353-4770-B7E3-439170C29C94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC7E7B43-C353-4770-B7E3-439170C29C94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE45D48-D9AF-4B85-A580-8C70EE060BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE45D48-D9AF-4B85-A580-8C70EE060BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE45D48-D9AF-4B85-A580-8C70EE060BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE45D48-D9AF-4B85-A580-8C70EE060BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
